@@ -1,0 +1,100 @@
+/* general */
+*{margin:0;padding: 0;box-sizing: border-box;font-family: sans-serif;}
+body{
+    background-color: #c4c4c4;
+    color: #000;
+    background-repeat: on-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.container{width: 80%;align-items: center;margin: 0 auto;}
+.clear{clear: both;}
+.active{
+    width: fit-content;
+    border-bottom: 3px solid #a10000;
+}
+
+
+/* header */
+header{
+    overflow-y: visible;
+    flex-wrap: wrap;
+}
+header .header .header-content{
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    position: relative;
+    top: 100px;
+}
+header .header .header-content h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #000;
+    text-transform:uppercase;
+}
+header .header .header-content p{
+    text-transform:capitalize;
+    margin-bottom: 20px;
+    color: #000;
+}
+.btn{
+    position: relative;
+    top: 30vh;
+}
+.btn1{
+    border: none;
+    border-radius: 3px;
+
+    padding: 3px;
+    margin: 10px;
+    
+    text-transform: capitalize;
+
+    font-size: 20px;
+    font-family: sans-serif;
+    
+    width: 200px;
+    height: 60px;
+    
+    box-shadow: 0 0 2px 2px #ffffff;
+    
+    cursor: pointer;
+    
+    outline: none;
+    transition: opacity 0.3s ;
+    
+    transition: 0.2s;
+}
+.head-btn-learn,.head-btn-getStart{
+    color: #ffffff;
+    background-color: #2a0077;
+}
+
+.head-btn-getStart:hover,.head-btn-learn:hover{
+    opacity: 0.8;
+}
+.head-btn-getStart:active,.head-btn-learn:active{
+    background-color: #ffffff;
+    color: #2a0077;
+}
+
+
+.loading{
+    left:0;
+    top:0;
+    position: absolute;
+    background-color: #ffffff;
+    color: #5a00ff;
+    height: 100vh;
+    width: 100vw;
+    font-size:30px;
+    text-align:center;
+    z-index: 99999;
+}
+.loading span{
+    position: relative;
+    top: 40%;
+    justify-content: center;
+    align-items: center;
+}
