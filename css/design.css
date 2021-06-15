@@ -1,0 +1,23 @@
+.blueAngel{
+    clip-path: ellipse(300px 400px at 0% 20%);
+    z-index: 2;
+    top: 0;
+    position: absolute;
+    display: flex;
+    background-color: #2a0077;
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+.blueAngel1{
+    clip-path: ellipse(300px 400px at 90% 90%);
+    z-index: 3;
+    top: 0;
+    right: 0;
+    position: absolute;
+    display: flex;
+    background-color: #2a0077;
+    height: 100%;
+    width: 30%;
+    float: right;
+}

@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#230064;
+}
+.loading{
+    left:0;
+    top:0;
+    position: absolute;
+    background-color: #ffffff;
+    color: #5900ff;
+    height: 100%;
+    width: 100vw;
+    font-size:30px;
+    text-align:center;
+}
+.loading span{
+    position: relative;
+    top: 40%;
+    justify-content: center;
+    align-items: center;
+}
+.container{width: 80%;margin: 0 auto;}
+
+
+.header h1{
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: aquamarine;
+    position: relative;
+}
+
+section.container{
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+section .products{
+    overflow: hidden;
+    border: 2px solid #000;
+    border-radius:10px ;
+    padding: 10px;
+    background-color: #ffffff;
+    width: 200px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: 0.3s;
+    cursor: pointer;
+}
+section .products label{
+    text-transform:capitalize;
+    text-align: center;
+    font-weight: bold;
+    margin: 2px;
+    direction:ltr ;
+}
+section .products:hover{
+    opacity: 0.8;
+}
+section .products p{
+    font-weight: bold;
+    direction:ltr;
+    max-width: 200px;
+    max-height: 50px;
+    opacity: 0.8;
+}
+section .products .product-photo{
+    width: 160px;
+    height: 180px;
+    background-color: #a1a1a1;
+}
+section .products .product-photo img{
+    width: 160px;
+    height: 180px;
+}
